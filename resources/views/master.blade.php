@@ -11,7 +11,19 @@
     
 </head>
 <body>
+    {{View::make('header')}}
+    @yield("content")
+    {{view::make('footer')}}
 
     
 </body>
+
+<style>
+    .costum{
+        height: 500px;
+        padding-top:100px;
+
+    }
+    
+</style>
 </html>
